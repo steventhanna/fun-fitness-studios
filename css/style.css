@@ -1,0 +1,51 @@
+html { 
+  background: url(../img/studio-1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 0 0 0;
+}
+
+body {
+}
+
+/* Navbar modifications */
+.navbar {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-default {
+	background-color: rgba(0,0,0,0);
+	background-color: #fff;
+	border-bottom: 0px;
+	color: #fff;
+}
+
+/* I am setting the text color to white here.  We need a dark picture for this to look good! */
+
+.navbar-default .navbar-brand {
+	color: #fff;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #0097c3;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #0097c3;
+}
+
+/* Deal with fixed-navbar here */
+
+/* End fixed-nav */
+
+/* Main photo and stuff */
+
+.main-photo {
+	
+}
