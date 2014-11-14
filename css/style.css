@@ -62,7 +62,7 @@ a:focus {
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    background-color: #000;
+    background-color: #fff;
 }
 
 .navbar-custom .navbar-brand {
@@ -427,6 +427,23 @@ body {
 
 .services {
     padding-bottom: 100px;
+}
+
+.services .title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+    font-size: 40px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.services p {
+    font-weight: 300;
+}
+
+.gallery {
+    padding-bottom: 100px;
+    background-color: #d3d3d3;
 }
 
 
