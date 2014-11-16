@@ -17,8 +17,8 @@
   <!-- Custom CSS -->
   <link href="css/style.css" rel="stylesheet">
 
-  <!-- ShadowBox CSS -->
-  <link href="css/shadowbox.css" rel="stylesheet">
+  <!-- Lightbox CSS -->
+  <link href="css/lightbox.css" rel="stylesheet">
 
   <!-- Custom Fonts -->
   <link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -32,11 +32,6 @@
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
-  <!-- Shadowbox JavaScript -->
-  <script src="js/shadowbox.js"></script>
-  <script type="text/JavaScript">
-    Shadowbox.init();
-  </script>
 
 </head>
 
@@ -242,7 +237,7 @@
       </div>
       <div class="row">
         <div class="col-lg-3">
-        <a href="http://lorempixel.com/300/300" rel="shadowbox"><img src="http://lorempixel.com/300/300"></a>
+        <a href="http://lorempixel.com/300/300" data-lightbox="image-1" data-title="My caption"> <img src="http://lorempixel.com/300/300"></a>
         </div>      
         <div class="col-lg-3">
           <img src="http://lorempixel.com/300/300">
@@ -259,6 +254,9 @@
 
   <!-- jQuery -->
   <script src="js/jquery.js"></script>
+
+  <!-- Lightbox -->
+  <script src="js/lightbox.min.js"></script>
 
   <!-- Bootstrap Core JavaScript -->
   <script src="js/bootstrap.min.js"></script>
