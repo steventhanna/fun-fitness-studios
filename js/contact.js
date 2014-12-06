@@ -3,7 +3,7 @@ $(document).ready(function() {
     var userName = $("#nameInput").val();
     var userEmail = $("#emailInput").val();
     var subject = $("#subjectInput").val();
-    var messageBody = $("#messageInput").html();
+    var messageBody = $("#messageInput").val();
 
     if(userName == " " || userName == "" || userEmail == "" || userEmail == " " || messageBody == "" || messageBody == " ") {
       swal("Incomplete Form", "Please complete all required fields. 'Subject' is the only optional field.", "error");
