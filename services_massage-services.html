@@ -38,6 +38,9 @@
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
+  <!-- Load the Clicker Script -->
+  <script type="text/javascript" src="js/clicker.js"></script>
+
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -62,19 +65,26 @@
             <a href="#page-top"></a>
           </li>
           <li>
-            <a class="page-scroll" href="index.html">Home</a>
+            <a href="index.html">Home</a>
           </li>
-          <li>
-            <a class="page-scroll" href="index.html#about">About</a>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="index.html#about" role="button" aria-expanded="false" onclick="clicker('index.html#about')">About</a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="about_press.html#content">Press</a></li>
+            </ul>
           </li>
-          <li>
-            <a class="page-scroll" href="index.html#services">Services</a>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#services" role="button" aria-expanded="false" onclick="click('index.html#services')">Services</a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="services_get-started.html#content">Get Started</a></li>
+              <li><a class="page-scroll" href="#content">Massage Services</a></li>
+            </ul>
           </li>
           <li>
             <a class="page-scroll" href="index.html#contact">Contact Us</a>
           </li>
           <li>
-            <a class="page-scroll" href="exercise.html#content">Exercises</a>
+            <a href="exercise.html#content">Exercises</a>
           </li>
           <li>
             <a href="http://www.funfitnessstudios.com/blog">Blog</a>
