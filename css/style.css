@@ -559,3 +559,7 @@ iframe {
 .facebook {
     padding-bottom: 40px;
 }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
