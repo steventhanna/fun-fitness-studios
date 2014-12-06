@@ -536,3 +536,26 @@ img {
 iframe {
     width: 100%;
 }
+
+.form-group {
+    padding-bottom: 0px;
+    margin-left: 0px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.facebook a {
+    font-size: 24px;
+}
+
+.facebook img {
+    padding-right: 10px;
+    height: 42px;
+    width: auto;
+}
+
+.facebook {
+    padding-bottom: 40px;
+}
