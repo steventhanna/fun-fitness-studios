@@ -546,3 +546,9 @@ iframe {
 .dropdown:hover .dropdown-menu {
     display: block;
  }
+
+.logo {
+    width: auto;
+    height: 25px;
+    margin-right: 10px;
+}
