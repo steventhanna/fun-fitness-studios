@@ -552,3 +552,20 @@ iframe {
     height: 25px;
     margin-right: 10px;
 }
+
+.logo-constant {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  display: block;
+  height: 125px;
+  width: auto;
+}
+
+.logo-navcontent {
+  position: absolute;
+  display: inline-block;
+  width: auto;
+  height: 30px;
+  margin-top: -4px;
+}
